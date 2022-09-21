@@ -123,12 +123,9 @@ video {
 .baloons img {
     display: inline-block;
     position: absolute;
-    z-index: 100;
+    z-index: 100000;
 
     /* opacity: 0; */
-}
-iframe{
-    /* display: none */
 }
 
 .baloons img:nth-child(even) {
@@ -199,8 +196,7 @@ span.fade {
     opacity: 1;
 }
 
-iframe{
-    
+iframe {
 }
 @media screen and (max-width: 700px) {
     #outside,
@@ -253,7 +249,7 @@ iframe{
     height: 100%;
     overflow: hidden;
     transform-origin: left;
-    box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.45), 30px 0 50px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 100px 20px 100px rgba(122, 120, 120, 0.6), 30px 0 50px rgba(0, 0, 0, 0.5);
     transition: 2s;
     z-index: 1000;
 }
