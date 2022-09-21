@@ -196,6 +196,9 @@ span.fade {
     opacity: 1;
 }
 
+iframe{
+    /* opacity: ; */
+}
 @media screen and (max-width: 700px) {
     #outside,
     .inside {
