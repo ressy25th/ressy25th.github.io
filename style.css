@@ -127,6 +127,9 @@ video {
 
     /* opacity: 0; */
 }
+iframe{
+    /* display: none */
+}
 
 .baloons img:nth-child(even) {
     left: 10%;
@@ -197,7 +200,7 @@ span.fade {
 }
 
 iframe{
-    /* opacity: ; */
+    
 }
 @media screen and (max-width: 700px) {
     #outside,

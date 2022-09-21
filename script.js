@@ -18,14 +18,13 @@ function clickMe(x) {
         }
 
         document.getElementsByClassName('inside')[0].style.height = "100%"
-        // document.getElementsByClassName('inside2')[0].style.left = "0%"
         document.getElementsByClassName('inside2')[0].style.
             height = "100%"
         document.getElementsByClassName('inside2')[0].style.display = "block"
         document.getElementsByClassName('ten')[0].style.visibility = "visible"
         document.getElementsByTagName('video')[0].style.height = "500px"
         document.getElementsByClassName('card')[0].style.height = '85%'
-        // document.getElementsByClassName('card')[0].style.width = '80%'
+        document.getElementsByTagName('iframe').style.display = "block"
 
 
     } else {
@@ -41,7 +40,7 @@ function clickMe(x) {
         document.getElementsByClassName('card')[0].style.width = '640px'
         document.getElementById("outside").style.left = "5%"
         document.getElementsByClassName('ten')[0].style.visibility = 'hidden'
-        document.getElementsByTagName('video').style.height = "250px"
+        document.getElementsByTagName('iframe').style.display = "none"
 
 
 
