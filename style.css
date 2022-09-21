@@ -45,7 +45,7 @@ body {
 } */
 
 .inside {
-    background: linear-gradient(to right, #8f8c8c, #ffffff 25%);
+    background: linear-gradient(to right, #e0e0e0, #ffffff 25%);
     line-height: 3px;
     padding: 0 20px;
     text-align: center;
