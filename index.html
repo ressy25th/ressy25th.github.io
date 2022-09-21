@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Ecy!!</title>
+    <link rel="stylesheet" href="style.css" />'
+    <script type="application/javascript" src="script.js"></script>
+    <script src="https://cdnjs.﻿cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>﻿
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TimelineMax.min.js"></script>
+</head>
+
+<body>
+    <div class="card" onclick="clickMe()">
+        <div id="outside">
+            <div class="front">
+                <div class="cardFront">
+                    <div class="front-text">
+                        <h2 class="bday">BIRTHDAY <br> CARD</h2>
+                    </div>
+                    <div class="wrap-deco">
+                        <div class="decorations"></div>
+                        <div class="decorationsTwo"></div>
+                    </div>
+                    <div class="wrap-decoTwo">
+                        <div class="decorations"></div>
+                        <div class="decorationsThree"></div>
+                    </div>
+                    <div class="plate">
+                        <div class="cake"></div>
+                        <div class="flame"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="back">
+            </div>
+
+        </div>
+
+        <div class="inside">
+            <div class="one">
+                <h1 class="name">Hi Ressy!</h1>
+            </div>
+
+            <div class="two">
+                <p>Today is 21st September</p>
+            </div>
+
+            <div class="three">
+                <p>It iss your Birthdayy!!</p>
+            </div>
+
+            <div class="eight">
+                <img src="./img/foto.jpg" alt="picture" class="picture" id="image" />
+                <div class="hbd">
+                    <div class="hbd-wish">Happy Birthday!</div>
+                </div>
+            </div>
+
+            <!-- <div class="ten"> -->
+                <iframe style="z-index:2000 ;" width="330" height="560" src="https://www.youtube.com/embed/cUgJ2S-Q_7s"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            <!-- </div> -->
+
+        </div>
+
+        <div class="seven">
+            <div class="baloons">
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon2.svg" alt="" />
+                <img src="img/ballon1.svg" alt="" />
+                <img src="img/ballon3.svg" alt="" />
+            </div>
+        </div>
+
+        <div class="inside2">
+
+            <div class="four">
+                <h3>HAPPY</h3>
+                <h1>BIRTHDAY</h1>
+                <p>to you!</p>
+            </div>
+
+            <div class="five">
+                <p class="ecy-name">dear Ecy!</p>
+            </div>
+
+            <div class="six">
+                <p class="wish">Happy 21st September Ecy!. I hope your day is filled with a lots of love and laughter,
+                    and
+                    i hope that the days will come would bring a new hope to you!</p>
+            </div>
+            <div class="seven">
+                <p>dmsprr</p>
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+        <script>
+
+            var tl = new TimelineMax({});
+            tl.to('.card', 0.6, {
+                visibility: "visible"
+            })
+                .from(".one", 0.7, {
+                    opacity: 0,
+                    y: 100,
+                    delay: 6
+                })
+                .to(".one", 0.7, {
+                    opacity: 0,
+                    y: 100
+                }, "+=3")
+                .from('.two', 0.7, {
+                    opacity: 0,
+                    y: 100,
+                })
+                .to(".two", 0.7, {
+                    opacity: 0,
+                    y: 100
+                }, "+=3")
+                .from(".three", 0.7, {
+                    opacity: 0,
+                    y: 100,
+                })
+                .to(".three", 0.7, {
+                    opacity: 0,
+                    y: 100
+                }, "+=3")
+                .to('.inside2', 0.6, {
+                    opacity: 1,
+                })
+                .from('.four h3', 0.7, {
+                    opacity: 0,
+                    y: 100,
+                })
+                .from('.four h1', 0.7, {
+                    opacity: 0,
+                    y: 100,
+                })
+                .from('.four p', 0.7, {
+                    opacity: 0,
+                    y: 100,
+                })
+                .from('.five p', 0.7, {
+                    opacity: 0,
+                    y: 100,
+                })
+                .from(".six", 1, {
+                    scale: 0.2,
+                    opacity: 0
+                })
+                .from(".wish", 1.5, {
+                    visibility: "visible"
+                }, 0.05)
+                .from('.seven p', 0.7, {
+                    opacity: 0,
+                    x: 100,
+                })
+                .to('.inside2', 0.7, {
+                    opacity: 0,
+                }, "+=7")
+                .staggerFromTo(
+                    ".baloons img",
+                    2.5, {
+                    opacity: 0.9,
+                    y: 1400,
+                }, {
+                    opacity: 1,
+                    y: -1000,
+                },
+                    0.2
+                )
+                .from(
+                    ".picture",
+                    0.5, {
+                    scale: .5,
+                    opacity: 0,
+                    x: 25,
+                    y: -25,
+                    rotationZ: -45,
+                },
+                    "-=2"
+                )
+                .from('.hbd-wish', 0.7, {
+                    opacity: 0,
+                    y: 100,
+                })
+                .to(".picture", 0.5, {
+                    opacity: 0,
+                    y: 30,
+                    zIndex: "-1",
+                }, "+=3")
+                .to(".hbd-wish", 0.5, {
+                    opacity: 0,
+                    y: 30,
+                    zIndex: "-1",
+                })
+                .from('iframe', 0.7, {
+                    opacity: 0,
+                    x: 100,
+                })
+
+        </script>
+    </div>
+
+</body>
+
+</html>
